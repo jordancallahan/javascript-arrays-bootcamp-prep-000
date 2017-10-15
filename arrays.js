@@ -25,10 +25,10 @@ function accessElementInArray(array, index)  {
 
 function destructivelyRemoveElementFromBeginningOfArray(array)  {
   if (array.shift())
-  return array
+  return array;
 }
 
 function removeElementFromBeginningOfArray(array)  {
   if (array.slice(1))
-  return array
+  return array;
 }
